@@ -156,7 +156,7 @@ var holes=
         {
             a=1;
             b=score;
-            this.speed+=0.8;
+            this.speed+=1;
         }
         else if((score-b)>100)
         {
