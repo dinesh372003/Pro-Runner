@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <body>
     <body>
+        <div class="a">
         <p>Score :</p>
     <script>
             var score=localStorage.getItem("score");
@@ -13,6 +14,7 @@
     </script>
     <br>
     <button class="button" onclick="openfile()">Play Again</button>
+        </div>
     <style>
         body
         {
@@ -22,6 +24,11 @@
             color:blue;
             text-align: center;
             font-size: 45px;
+        }
+        .a
+        {
+            height:100%;
+            width:100%;
         }
         .button
         {
